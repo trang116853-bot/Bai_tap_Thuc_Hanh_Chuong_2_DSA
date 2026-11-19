@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 void Nhap(float*a, int n){
+	int i;
 	for(int i = 0; i < n; i++){
 		printf("Nhap phan tu a[%d]: ", i);
 		scanf("%f", a+i);
 	}
 }
 void In(float*a, int n){
+	int i;
 	printf("Mang mot chieu vua nhap la: ");
 	for(int i = 0; i < n; i++){
 		printf("%.2f ", *(a+i));
