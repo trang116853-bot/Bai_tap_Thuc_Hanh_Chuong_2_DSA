@@ -21,7 +21,7 @@ void Nhap(Data*ds, int n){
 void In(Data*ds, int n){
 	int i;
 	for (int i = 0; i < n; i++){
-		printf("Ho ten: %s | Ma SV: %d | Diem 1: %.2f | Diem 2: %.2f | Diem 3: %.2f\n",(ds + i)->hoten,(ds + i)->masv,(ds + i)->d1, (ds + 1)->d2, (ds + i)->d3;
+		printf("Ho ten: %s | Ma SV: %d | Diem 1: %.2f | Diem 2: %.2f | Diem 3: %.2f\n",(ds + i)->hoten,(ds + i)->masv,(ds + i)->d1, (ds + 1)->d2, (ds + i)->d3);
 	}
 }
 int main(){
